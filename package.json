@@ -1,0 +1,23 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "練習node server",
+  "main": "serverExpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TengLee888/nodeServer.git"
+  },
+  "author": "tenglee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TengLee888/nodeServer/issues"
+  },
+  "homepage": "https://github.com/TengLee888/nodeServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

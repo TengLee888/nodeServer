@@ -13,7 +13,6 @@ var server = http.createServer(
 
     var pathname = url.parse(req.url).pathname;
     if(pathname === '/') {
-      // res.writeHead(200,{'Content-Type':'text/plain'});
       res.writeHead(200,{
         'Content-Type':'text/plain',
         'Access-Control-Allow-Origin': host

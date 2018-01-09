@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 var qs = require('querystring');
 var host = 'http://localhost:8000';
-var connection = require('./../config');
+var connection = require('./config');
 
 
 function save(callback) {

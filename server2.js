@@ -20,7 +20,6 @@ var server = http.createServer(function (req,res) {
       var msg = JSON.stringify(user); //msg:  {"username":"tenglee","email":"abc123@gmail.com","id":"123456"}
       res.writeHead(200, {
         "Content-Type":"application/json;",
-        "Content-Length":msg.length,
         'Access-Control-Allow-Origin': host
       });
       res.end(msg);
